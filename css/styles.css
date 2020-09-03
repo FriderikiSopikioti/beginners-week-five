@@ -5,3 +5,17 @@ body {
   padding: 3rem 1.5rem;
   text-align: center;
 }
+img{width: 200px;}
+#carouselExampleSlidesOnly img{ 
+  height:400px;
+  object-fit: cover;}
+
+.align-center{
+  text-align: center;
+}
+
+.btn-primary{
+  margin-bottom: 16px;
+  background-color: blueviolet;
+  border-color: chartreuse;
+}
