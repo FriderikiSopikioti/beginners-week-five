@@ -3,12 +3,8 @@
     margin: 100px 0;
     text-align: center;
     font-size: 35px;
-    background: rgba(255, 255, 255, 0.7);
 }
 
-.masthead{
-    background: rgba(255, 255, 255, 0.7);
-}
 
 
 body {
@@ -23,7 +19,7 @@ body {
 .animals {
     margin: 100px 0;
     text-align: center;
-    background: rgba(255, 255, 255, 0.7);
+    
 }
 h4{
     font-size: 30px;
@@ -70,38 +66,24 @@ li {
 .nav > li > a {
     display: block;
 }
+.nav > li > a:hover {
+    color: #0088cc; 
+    background:none;
+}
+
 a {
     color: #0088cc;
     text-decoration: none;
 }
-user agent stylesheet
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
-li {
-    line-height: 20px;
-}
-user agent stylesheet
-li {
-    text-align: 
+
 
 .container{
         margin: 0 auto;
         max-width: 700px;
-        background-image:url("../images/cream_dust.png");
+        background:rgba(255, 255, 255, 0.7);
+}
  
-        div {
+     div {
             display: block;
         }
 
-.nav-tabs:before, .nav-pills:before, .nav-tabs:after, .nav-pills:after {
-            display: table;
-            line-height: 0;
-            content: "";
-        }
-
- .nav-tabs:after, .nav-pills:after {
-            clear: both;
-        }      
