@@ -3,26 +3,105 @@
     margin: 100px 0;
     text-align: center;
     font-size: 35px;
+    background: rgba(255, 255, 255, 0.7);
 }
-user agent stylesheet
-div {
-    display: block;
+
+.masthead{
+    background: rgba(255, 255, 255, 0.7);
 }
+
+
 body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #333333;
-    background-color: #ffffff;
-    background: url(/images/cream_dust.png) repeat 0 0;
+    background-image:url("../images/carribean_wow.jpg");
+    
 }
+
 .animals {
     margin: 100px 0;
     text-align: center;
+    background: rgba(255, 255, 255, 0.7);
 }
 h4{
     font-size: 30px;
 }
-.buttons{
-    text-align: right;
+
+
+
+.nav-tabs > li, .nav-pills > li {
+    float: left;
 }
+li {
+    line-height: 20px;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.nav {
+    margin-bottom: 20px;
+    margin-left: 0;
+    list-style: none;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
+    color: #ffffff;
+    background-color: #0088cc;
+}
+.nav-pills > li > a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.nav-tabs > li > a, .nav-pills > li > a {
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: 2px;
+    line-height: 14px;
+}
+.nav > li > a {
+    display: block;
+}
+a {
+    color: #0088cc;
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+li {
+    line-height: 20px;
+}
+user agent stylesheet
+li {
+    text-align: 
+
+.container{
+        margin: 0 auto;
+        max-width: 700px;
+        background-image:url("../images/cream_dust.png");
+ 
+        div {
+            display: block;
+        }
+
+.nav-tabs:before, .nav-pills:before, .nav-tabs:after, .nav-pills:after {
+            display: table;
+            line-height: 0;
+            content: "";
+        }
+
+ .nav-tabs:after, .nav-pills:after {
+            clear: both;
+        }      
