@@ -3,19 +3,22 @@
     margin: 100px 0;
     text-align: center;
     font-size: 35px;
+    font-family: 'Anton', sans-serif;
 }
 
 
+
+  
 
 body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     color: #333333;
     background-image:url("../images/carribean_wow.jpg");
-    
+    background-size: 2000px;
+    font-family: 'Roboto', sans-serif;
 }
-
 .animals {
     margin: 100px 0;
     text-align: center;
@@ -42,11 +45,10 @@ li {
     margin-bottom: 20px;
     margin-left: 0;
     list-style: none;
+    
 }
 
-.nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
-    color: #ffffff;
-    background-color: #0088cc;
+
 }
 .nav-pills > li > a {
     padding-top: 8px;
@@ -66,11 +68,16 @@ li {
 .nav > li > a {
     display: block;
 }
-.nav > li > a:hover {
-    color: #0088cc; 
-    background:none;
+.nav-pills> li > a:hover {
+    color:gainsboro;
+    background-color:#0088cc; 
+    text-decoration: none;
 }
-
+.nav-pills> li {
+    color:darkcyan;
+    background-color:palegreen; 
+    text-decoration: none;
+}
 a {
     color: #0088cc;
     text-decoration: none;
